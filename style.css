@@ -1,0 +1,272 @@
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-BoldItalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+	margin: 0;
+	font-family: "Gotham Pro";
+	overflow-x: hidden;
+}
+
+.container {
+	margin: 0px 65px;
+}
+
+.header {
+	background-image: url(./images/bg.jpg);
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.header-line{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav-item {
+	color:#6B4531;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+
+	margin-right: 120px;
+
+	transition: color 0.3s linear;
+}
+.nav-item:hover {
+	color:black;
+}
+.button {
+	color:#6B4531;
+	text-decoration: none;
+	padding: 15px 25px;
+	font-size: 18px;
+	font-weight: 700;
+
+	border: 2px solid #6B4531;
+	border-radius: 30px;
+
+	transition: color 0.2s linear;
+
+}
+.button:hover {
+	color:black;
+}
+
+.text{
+	color: #442B1F;
+	font-size: 50px;
+	font-weight: 700;
+	margin: 230px 50px;
+}
+.sp{
+	font-size: 32px;
+	font-weight: 500;
+	font-style: italic;
+}
+.coffeemap{
+	background-image: url(./images/map.jpg);
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.map-title{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 20px;
+}
+.ourteam{
+	background-image: url(./images/ourteam.jpg);
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.team-title{
+	color: #42331E;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: left;
+	padding-top: 120px;
+	padding-left: 100px;
+}
+.history{
+	color:#000000;
+	font-size: 20px;
+	font-weight: 400;
+	width: 400px;
+	text-align: left;
+	padding-left: 900px;
+	padding-top: 100px;
+}
+.TG-bot{
+	background-image: url(./images/tgbot.jpg);
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.bot-title{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: left;
+	padding-top: 120px;
+	padding-left: 100px;
+}
+.text-item{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 100px;
+	display: flex;
+	
+	margin: 82px;
+}
+.footer{
+	background-image: url(./images/footer.jpg);
+	height: 130vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.footer-title{
+	color: #442B1F;
+	font-size: 55px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.adress {
+	margin-left: 800px;
+	margin-top: 100px;
+	display: inline-block; 
+	border: 5px solid green; 
+	border-radius: 15px; 
+	box-sizing: border-box;
+	position: absolute;
+}
+.adress img {
+	display: block;
+	width: 100%; 
+	height: auto; 
+	border-radius: 10px; 
+}
+.pin{
+	padding-top: 200px;
+	display: flex;
+	
+}
+.pin-title{
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 100px;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.number{
+	position: relative;
+	top:70px;
+	left:130px;
+}
+
+.email{
+	position: relative;
+	top:70px;
+	left:400px;
+}
+.footer-desk{
+	color: black;
+	font-size: 25px;
+	font-weight: 600;
+	position: relative;
+	left:800px;
+}
