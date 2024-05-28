@@ -202,11 +202,11 @@ body {
 .text-item{
 	color: #fff;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	padding-left: 100px;
 	display: flex;
 	
-	margin: 82px;
+	margin: 95px;
 }
 .footer{
 	background-image: url(./images/footer.jpg);
